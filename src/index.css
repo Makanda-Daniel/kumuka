@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme {
+           
+           --color-fundo: #0A0F1C; /* fundo geral, azul muito escuro (quase preto) */
+           --color-texto:#ffffff;
+          --color-card: #121A2B; /* fundo dos cartões/caixas */
+          --color-border: #1F2937; /* linhas/bordas subtis */
+          --color-ts: #94A3B8; /* texto secundário (cinza azulado)*/
+          --color-v: #22C55E; /* verde principal da marca (botões, progresso)*/
+          --color-ve: #16A34A; /* verde mais escuro, para hover/gradiente*/
+          --color-a: #3B82F6;/* azul de destaque (ex: categoria "Tecnologia")*/
+          --color-l: #F97316; /* laranja de destaque (ex: categoria "Liderança")*/
+          --color-purple: #8B5CF6; /* roxo de destaque (ex: ícone de projeto)*/
+}
+
+body {
+  font-family: "Poppins", system-ui, sans-serif;
+}
+
