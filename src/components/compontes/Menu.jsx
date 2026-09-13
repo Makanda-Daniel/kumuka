@@ -39,7 +39,7 @@ const itens = [
               }`
             }
           >
-            <Icone size={20} />
+            <Icone size={22} />
             <span>{rotulo}</span>
           </NavLink>
         ))}

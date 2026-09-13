@@ -3,9 +3,13 @@ import Menu from "../compontes/Menu"
 import { useState } from "react"
 import { BiAlarm, BiUser } from "react-icons/bi"
 import { LuLaptop } from "react-icons/lu"
+import { useNavigate } from "react-router-dom"
+
 
 
 function Portfolio() {
+
+    const navigate = useNavigate()
 
     // abas que vao aparecer no topo 
    const  abas =["projectos","certificado","estagios"]
@@ -84,7 +88,8 @@ function Portfolio() {
                 )}
 
                 <div class="flex-1" />
-                <button class="flex items-center justify-center gap-2 border border-border rounded-xl py-3 text-sm text-texto" >aasssssss</button> 
+
+                <button onClick={()=> navigate("/oportunidade")} class="flex items-center justify-center gap-2 border border-border rounded-xl py-3 text-sm text-texto bg-v cursor-pointer" > <LuLaptop size={22} />  novo projecto</button> 
 
 
 
